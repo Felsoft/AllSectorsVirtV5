@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminMasterLayout.cshtml";
+}
+@*@{
+        var controller = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+        string cLayout = " ";
+
+        if (controller == "Home")
+        {
+            cLayout = "~/Views/Shared/_AdminMasterLayout.cshtml";
+        }
+        else if (controller == "_StudentMaster")
+        {
+            Layout = "~/Views/Shared/_StudentMasterLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }*@
